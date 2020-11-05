@@ -1,0 +1,33 @@
+.pic_fun img {
+	height: 175px;
+	width: 400px;
+}
+
+.image_left {
+	height: 500px;
+	width: 590px;
+}
+
+.image_right {
+	height: 500px;
+	width: 590px;
+}
+
+#nav-select {
+	visibility: hidden;
+}
+
+@media (max-width: 480px) {
+	.navbar li {
+		padding: 10px;
+	}
+
+	.post {
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+
+	.navbar ul {
+		visibility: hidden;
+	}
+}
